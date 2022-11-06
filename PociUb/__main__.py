@@ -15,11 +15,11 @@ from PociUb import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bot1, bots
 from PociUb.helpers.misc import create_botlog, git, heroku
 
 MSG_ON = """
-‼️ **PociUserbot Berhasil Di Aktifkan**
+‼️ **DutaPibot Berhasil Di Aktifkan**
 
 **┌ [ Userbot Version -** `{}` 
 **├ [ Ketik** `{}alive` **untuk Mengecek bot**
-**└ [ Harap Gunakan PociUserbot ini dengan bijak!!**
+**└ [ Harap Gunakan DutaPibot ini dengan bijak!!**
 """
 
 
@@ -50,7 +50,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("PociUb").info("Starting PociUserBot")
+    LOGGER("PociUb").info("Starting DutaPiBot")
     install()
     git()
     heroku()
